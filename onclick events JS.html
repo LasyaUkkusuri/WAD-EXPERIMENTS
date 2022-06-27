@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>HTML DOM Events</h1>
+<h2>The onclick Event</h2>
+
+<h3 onclick="myFunction(this, 'red')">Click me to change my text color.</h3>
+
+<script>
+function myFunction(element, color) {
+  element.style.color = color;
+}
+</script>
+<button onclick="myFunction()">Copy Text</button>
+
+<script>
+function myFunction() {
+  document.getElementById("field2").value =   document.getElementById("field1").value;
+}
+</script>
+</body>
+</html>
